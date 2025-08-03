@@ -1,0 +1,95 @@
+<html>
+
+<head>
+
+    <script>
+
+        window.addEventListener('load',() => {
+
+          console.log('Executing')
+
+          // var darkPattern;
+          // const img = new Image();
+          // img.src = "http://localhost:333/dark.png";
+          // img.onload = () => {
+          //   darkPattern = ctx.createPattern(img, "repeat");
+          //   ctx.fillStyle = pattern;
+          //   ctx.fillRect(0, 0, 300, 300);
+          // };
+
+
+          const canvas = document.getElementById("canvas");
+          const ctx = canvas.getContext("2d");
+
+
+
+
+          const darkImage = document.getElementById("dark")
+          const darkPattern = ctx.createPattern(darkImage,"no-repeat")
+
+          const lightImage = document.getElementById("light")
+          const lightPattern = ctx.createPattern(lightImage,"no-repeat")
+
+
+
+          //
+          // c.canvas.width  = 400;
+          // c.canvas.height = 400;
+          //
+          // c.fillStyle = pattern1;
+          // c.beginPath();
+          // c.moveTo(0, 0);
+          // c.lineTo(400, 0);
+          // c.lineTo(400, 400);
+          // c.closePath();
+          // c.fill();
+          //
+          // c.fillStyle = pattern2;
+          // c.beginPath();
+          // c.moveTo(0, 0);
+          // c.lineTo(0, 400);
+          // c.lineTo(400, 400);
+          //
+          // c.closePath();
+          // c.fill();
+          //
+          // ctx.fillStyle = "blue";
+          // ctx.fillRect(10, 10, 100, 100);
+
+          ctx.fillStyle = darkPattern
+          ctx.beginPath()
+          ctx.moveTo(0,0)
+          ctx.lineTo(0,834)
+          ctx.lineTo(1288,0)
+          ctx.closePath();
+          ctx.fill()
+
+          ctx.fillStyle = lightPattern
+          ctx.beginPath()
+          ctx.moveTo(0,834)
+          ctx.lineTo(1288,0)
+          ctx.lineTo(1288,834)
+          ctx.closePath();
+          ctx.fill()
+
+
+
+        })
+
+    </script>
+
+</head>
+
+<body>
+
+<canvas id="canvas" width="1288" height="834"></canvas>
+
+
+
+<img id="dark" src="http://localhost:3333/dark.png" />
+<img id="light" src="http://localhost:3333/light.png" />
+
+
+</body>
+
+</html>
