@@ -8,6 +8,7 @@ Welcome to the Surmai usage documentation. This section provides detailed guides
 
 ## User Features
 
+- [Managing Trips](/documentation/usage/managing-trips)
 - [Collaborating on a Trip](/documentation/usage/collaborating-on-a-trip)
 - [Offline Access](/documentation/usage/offline-access)
 - [Calendar Integration](/documentation/usage/calendar-integration)

@@ -37,6 +37,7 @@ export default defineConfig({
       {
         text: 'User Documentation',
         items: [
+          {text: 'Managing Trips', link: '/documentation/usage/managing-trips'},
           {text: 'Collaboration', link: '/documentation/usage/collaborating-on-a-trip'},
           {text: 'Offline Access', link: '/documentation/usage/offline-access'},
           {text: 'Calendar Integration', link: '/documentation/usage/calendar-integration'},
