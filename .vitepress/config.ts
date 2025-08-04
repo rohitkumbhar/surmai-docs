@@ -4,6 +4,7 @@ import {defineConfig, HeadConfig} from 'vitepress'
 export default defineConfig({
   title: "Surmai",
   description: "Travel Planning Made Easy",
+  base: '/surmai-docs/',
   head: [
     ['link', {rel: 'icon', href: '/logo.svg'}],
   ],
