@@ -1,6 +1,6 @@
 # Surmai Documentation
 
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rohitkumbhar/surmai-docs/blob/main/LICENSE)
 
 ## Overview
 
@@ -30,7 +30,7 @@ suggest improvements.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/rohitkumbhar/surmai-docs/blob/main/LICENSE) file for details.
 
 ## Contact
 
