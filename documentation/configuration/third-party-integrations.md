@@ -1,5 +1,6 @@
 ---
 title: Third-Party Service Integrations
+description: Connect Surmai with external services and applications
 ---
 
 # Third-Party Service Integrations

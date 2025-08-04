@@ -1,5 +1,6 @@
 ---
 title: User Profile
+description: Manage your personal information and preferences in Surmai
 ---
 
 # User Profile

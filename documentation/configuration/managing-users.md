@@ -1,5 +1,6 @@
 ---
 title: Managing Users
+description: Add, remove, and manage user accounts in your Surmai instance
 ---
 
 # User Management

@@ -1,5 +1,6 @@
 ---
 title: Site Configuration
+description: Configure site-wide settings for your Surmai instance
 ---
 # Site Configuration
 

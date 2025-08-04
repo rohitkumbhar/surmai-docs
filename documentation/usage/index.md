@@ -1,5 +1,6 @@
 ---
 title: Usage Documentation
+description: Learn how to use Surmai's features for effective travel planning
 ---
 
 # Surmai Usage Documentation

@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+description: "Personal travel organizer for planning and managing your trips"
 
 hero:
   name: "Surmai"

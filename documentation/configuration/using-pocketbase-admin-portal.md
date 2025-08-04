@@ -1,5 +1,6 @@
 ---
 title: Using PocketBase Administration Portal
+description: Access and use the Pocketbase admin portal for advanced configuration
 ---
 
 # PocketBase Administration Portal
