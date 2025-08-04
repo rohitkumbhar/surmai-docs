@@ -18,6 +18,7 @@ Welcome to the Surmai documentation. Use the links below to navigate through the
 - [Pocketbase Administration](/documentation/configuration/using-pocketbase-admin-portal)
 
 ## User Documentation
+- [Managing Trips](/documentation/usage/managing-trips)
 - [Collaboration](/documentation/usage/collaborating-on-a-trip)
 - [Offline Access](/documentation/usage/offline-access)
 - [Calendar](/documentation/usage/calendar-integration)
