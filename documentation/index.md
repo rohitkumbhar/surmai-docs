@@ -1,5 +1,6 @@
 ---
 title: Documentation
+description: Navigate through Surmai's comprehensive documentation
 ---
 
 # Surmai Documentation

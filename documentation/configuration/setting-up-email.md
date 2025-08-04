@@ -1,5 +1,6 @@
 ---
 title: SMTP Settings
+description: Configure email settings for notifications and user communications
 ---
 
 # SMTP Configuration

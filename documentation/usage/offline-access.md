@@ -1,5 +1,6 @@
 ---
 title: Offline Access
+description: Access your travel plans anytime, even without an internet connection
 ---
 
 # Offline Access

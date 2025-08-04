@@ -1,4 +1,6 @@
 ---
+title: Configuring Surmai
+description: Learn how to configure and manage your Surmai instance
 prev:
   text: 'Installation'
   link: '/documentation/installation'

@@ -1,5 +1,6 @@
 ---
 title: Collaborating on a Trip
+description: Work together with fellow travelers to create a seamless travel experience
 ---
 
 # Collaborating on a Trip

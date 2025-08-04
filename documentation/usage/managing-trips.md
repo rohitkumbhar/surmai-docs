@@ -1,5 +1,6 @@
 ---
 title: Managing Trips
+description: Create, organize, and manage your travel itineraries in Surmai
 ---
 
 # Managing Trips in Surmai

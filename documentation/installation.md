@@ -1,5 +1,6 @@
 ---
 title: Installing Surmai
+description: Learn how to install and deploy Surmai as a Docker container
 next:
   text: 'Configuration'
   link: '/documentation/configuration'

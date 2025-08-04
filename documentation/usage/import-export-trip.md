@@ -1,3 +1,8 @@
+---
+title: Import and Export Trips
+description: Save trip data as files that can be backed up or transferred between Surmai servers
+---
+
 # Import and Export Trips
 
 ## What is Trip Import/Export?

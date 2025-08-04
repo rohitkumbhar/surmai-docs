@@ -1,5 +1,6 @@
 ---
 title: Calendar Integration
+description: Synchronize your trip details with your preferred calendar application
 ---
 
 # Calendar Integration

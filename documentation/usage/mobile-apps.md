@@ -1,5 +1,6 @@
 ---
 title: Mobile Applications
+description: Access Surmai on your mobile devices for on-the-go travel planning
 ---
 
 # Mobile Applications
