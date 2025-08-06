@@ -9,6 +9,7 @@ hero:
   tagline: "Travel Planning Made Easy"
   image:
     src: /canvas-alt.png
+    link: /screenshots
   actions:
     - theme: brand
       text: Documentation
