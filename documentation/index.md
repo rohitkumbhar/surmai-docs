@@ -9,6 +9,7 @@ Welcome to the Surmai documentation. Use the links below to navigate through the
 
 ## Installation
 - [Installing Surmai](/documentation/installation)
+- [Screenshots](/documentation/screenshots)
 
 ## Configuration
 - [Site Configuration](/documentation/configuration/site-configuration)

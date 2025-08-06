@@ -45,6 +45,10 @@ export default defineConfig({
         link: '/documentation/installation',
       },
       {
+        text: 'Screenshots',
+        link: '/documentation/screenshots',
+      },
+      {
         text: 'Configuration',
         items: [
           {text: 'Site Configuration', link: '/documentation/configuration/site-configuration'},
