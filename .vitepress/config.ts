@@ -41,12 +41,10 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: 'Installation',
-        link: '/documentation/installation',
-      },
-      {
-        text: 'Screenshots',
-        link: '/documentation/screenshots',
+        text: 'General', items: [
+          { text: 'Installation',link: '/documentation/installation'},
+          {text: 'Screenshots', link: '/documentation/screenshots'},
+        ]
       },
       {
         text: 'Configuration',

@@ -7,7 +7,7 @@ description: Navigate through Surmai's comprehensive documentation
 
 Welcome to the Surmai documentation. Use the links below to navigate through the documentation.
 
-## Installation
+## General
 - [Installing Surmai](/documentation/installation)
 - [Screenshots](/documentation/screenshots)
 
