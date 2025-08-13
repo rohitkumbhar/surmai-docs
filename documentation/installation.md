@@ -31,7 +31,7 @@ services:
     restart: always
     environment:
       SURMAI_ADMIN_EMAIL: admin@surmai.app # Add your default administrator email
-      SURMAI_ADMIN_PASSWORD: ChangeMe123#@! # Admin password. Min 9 characters with all the fixings
+      SURMAI_ADMIN_PASSWORD: ChangeMe123#@! # Admin password. Minimum 9 characters with mixed case, numbers, and special characters
       PB_DATA_DIRECTORY: /pb_data # Must match volume directory above
 ```
 
@@ -39,59 +39,28 @@ services:
 
 | Key                     | Description                                              | Default Value |
 |-------------------------|----------------------------------------------------------|---------------|
-| `SURMAI_ADMIN_USER`     | **REQUIRED**: E-Mail address for the administrative user |               |
+| `SURMAI_ADMIN_EMAIL`    | **REQUIRED**: E-Mail address for the administrative user |               |
 | `SURMAI_ADMIN_PASSWORD` | **REQUIRED**: Password for the administrative user       |               |
 | `PB_DATA_DIRECTORY`     | **REQUIRED**: Data directory set in the volume mapping   |               |
 
-## Deploying with backup using Litestream
+## Deploying with backup using Litestream Replication
 
-Surmai uses SQLite as its database which can be replicated using [Litestrem](https://litestream.io/). You will have to
-setup a `litestram` [configuration file](https://litestream.io/guides/) and deploy it as a separate container along with Surmai.
+> [!TIP]
+> This is completely optional. Pocketbase offers
+> a [built-in backup solution](https://pocketbase.io/docs/going-to-production/#backup-and-restore) that snapshots your
+> database on a given
+> schedule. Use this method if you need continuous replication to ensure no data is lost.
 
-::: code-group
+Surmai uses SQLite as its database which can be replicated using [Litestream](https://litestream.io/) to an S3
+compatible storage. The following environment variables are required for enabling continuous replication via
+`litestream replicate`.
 
-```yaml[docker-compose.yaml]
-volumes:
-  surmai_data:
-
-services:
-  surmai_server:
-    container_name: surmai_server
-    image: ghcr.io/rohitkumbhar/surmai:latest
-    volumes:
-      - surmai_data:/pb_data
-    ports:
-      - "9090:8080"
-    restart: always
-    environment:
-      SURMAI_ADMIN_EMAIL: admin@surmai.app
-      SURMAI_ADMIN_PASSWORD: ChangeMe123#@!
-      PB_DATA_DIRECTORY: /pb_data
-  litestream:
-    container_name: litestream
-    image: litestream/litestream:latest
-    env_file: ./.env
-    restart: always
-    command:
-      - replicate
-    volumes:
-      - ./litestream.yml:/etc/litestream.yml
-      - surmai_data:/pb_data # Volume access for replication
-```
-
-
-```yaml[litestream.yaml]
-dbs:
-  - path: /pb_data/auxillary.db
-    replicas:
-      - url: s3://<s3-region-endpoint>/<aux-bkp-bucket-name>
-        access-key-id: ${S3_ACCESS_KEY_ID}
-        secret-access-key: ${S3_ACCESS_KEY_SECRET}
-  - path: /pb_data/data.db
-    replicas:
-      - url: s3://<s3-region-endpoint>/<data-bkp-bucket-name>
-        access-key-id: ${S3_ACCESS_KEY_ID}
-        secret-access-key: ${S3_ACCESS_KEY_SECRET}
-```
-
-:::
+| Key                               | Description                                              | Default Value |
+|-----------------------------------|----------------------------------------------------------|---------------|
+| `SURMAI_DB_BKP_ENABLED`           | Set to `true` to enable backup                           | unset         |
+| `SURMAI_DB_BKP_BUCKET_NAME`       | **REQUIRED**: Name of the bucket                         |               |
+| `SURMAI_DB_BKP_BUCKET_PATH`       | **OPTIONAL**: Path inside the bucket                     |               |
+| `SURMAI_DB_BKP_ENDPOINT_URL`      | **REQUIRED**: Bucket endpoint URL                        |               |
+| `SURMAI_DB_BKP_REGION`            | **REQUIRED**: Region for the endpoint                    |               |
+| `SURMAI_DB_BKP_ACCESS_KEY_ID`     | **REQUIRED**: Access key with write access to the bucket |               |
+| `SURMAI_DB_BKP_ACCESS_KEY_SECRET` | **REQUIRED**: Secret associated with the access key      |               |
