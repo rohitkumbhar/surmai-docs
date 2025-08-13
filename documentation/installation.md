@@ -46,7 +46,9 @@ services:
 ## Deploying with backup using Litestream Replication
 
 > [!TIP]
-> This is completely optional. Pocketbase offers a [built-in backup solution](https://pocketbase.io/docs/going-to-production/#backup-and-restore) that snapshots your database on a given
+> This is completely optional. Pocketbase offers
+> a [built-in backup solution](https://pocketbase.io/docs/going-to-production/#backup-and-restore) that snapshots your
+> database on a given
 > schedule. Use this method if you need continuous replication to ensure no data is lost.
 
 Surmai uses SQLite as its database which can be replicated using [Litestream](https://litestream.io/) to an S3
@@ -55,6 +57,10 @@ compatible storage. The following environment variables are required for enablin
 
 | Key                               | Description                                              | Default Value |
 |-----------------------------------|----------------------------------------------------------|---------------|
-| `SURMAI_DB_BKP_BUCKET_URL`        | **REQUIRED**: Endpoint URL                               |               |
+| `SURMAI_DB_BKP_ENABLED`           | Set to `true` to enable backup                           | unset         |
+| `SURMAI_DB_BKP_BUCKET_NAME`       | **REQUIRED**: Name of the bucket                         |               |
+| `SURMAI_DB_BKP_BUCKET_PATH`       | **OPTIONAL**: Path inside the bucket                     |               |
+| `SURMAI_DB_BKP_ENDPOINT_URL`      | **REQUIRED**: Bucket endpoint URL                        |               |
+| `SURMAI_DB_BKP_REGION`            | **REQUIRED**: Region for the endpoint                    |               |
 | `SURMAI_DB_BKP_ACCESS_KEY_ID`     | **REQUIRED**: Access key with write access to the bucket |               |
 | `SURMAI_DB_BKP_ACCESS_KEY_SECRET` | **REQUIRED**: Secret associated with the access key      |               |
