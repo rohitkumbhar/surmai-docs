@@ -11,6 +11,10 @@ next:
 Surmai is only available as a self hosted application at this time. It can be deployed as a Docker container on your
 server and accessed via a browser.
 
+> [!TIP]
+> If you would rather use a managed service, check out [Surmai Go](/documentation/surmai-go).
+
+
 ## Using a docker compose file
 
 ```yaml
@@ -48,8 +52,7 @@ services:
 > [!TIP]
 > This is completely optional. Pocketbase offers
 > a [built-in backup solution](https://pocketbase.io/docs/going-to-production/#backup-and-restore) that snapshots your
-> database on a given
-> schedule. Use this method if you need continuous replication to ensure no data is lost.
+> database on a given schedule.
 
 Surmai uses SQLite as its database which can be replicated using [Litestream](https://litestream.io/) to an S3
 compatible storage. The following environment variables are required for enabling continuous replication via

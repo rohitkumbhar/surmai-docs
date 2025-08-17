@@ -8,7 +8,9 @@ description: Navigate through Surmai's comprehensive documentation
 Welcome to the Surmai documentation. Use the links below to navigate through the documentation.
 
 ## General
+- [About](/documentation/about)
 - [Installing Surmai](/documentation/installation)
+- [Surmai Go](/documentation/surmai-go)
 - [Screenshots](/documentation/screenshots)
 
 ## Configuration
