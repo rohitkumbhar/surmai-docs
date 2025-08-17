@@ -33,7 +33,6 @@ We take privacy seriously and aim to be transparent about how your data is handl
 - Data backups: Your data is backed up periodically and can be restored if necessary.
 - Data requests: You can request data export or account deletion by contacting support.
 
-
 ## Security
 
 - All access to Surmai Go is served over HTTPS.
@@ -58,4 +57,5 @@ deployment with minimal friction. Refer to the [installation guide](/documentati
 
 ## Support and Feedback
 
-Your feedback helps improve Surmai. For questions, support requests, or suggestions, please email contact@surmai.app.
+Your feedback helps improve Surmai. For questions, support requests, or suggestions, please email contact@surmai.app or
+join the [Discord server](https://discord.gg/X2xe92nJ).

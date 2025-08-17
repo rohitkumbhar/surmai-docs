@@ -14,8 +14,7 @@ hero:
     - theme: brand
       text: Documentation
       link: /documentation
-    - theme: brand
-      text: Try the demo
+    - text: Try the demo
       link: https://demo.surmai.app
 
 features:

@@ -79,7 +79,8 @@ export default defineConfig({
       copyright: 'Copyright © 2024-Present Rohit Kumbhar'
     },
     socialLinks: [
-      {icon: 'github', link: 'https://github.com/rohitkumbhar/surmai'}
+      {icon: 'github', link: 'https://github.com/rohitkumbhar/surmai'},
+      {icon: 'discord', link: 'https://discord.gg/X2xe92nJ'}
     ]
   }
 })
