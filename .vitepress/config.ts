@@ -34,15 +34,15 @@ export default defineConfig({
       provider: 'local'
     },
     nav: [
-      {text: 'Home', link: '/'},
       {text: 'Documentation', link: '/documentation'},
-      {text: 'Demo', link: 'https://demo.surmai.app'}
-
+      {text: 'Go Login', link: 'https://go.surmai.app'},
     ],
     sidebar: [
       {
         text: 'General', items: [
-          { text: 'Installation',link: '/documentation/installation'},
+          {text: 'About', link: '/documentation/about'},
+          {text: 'Installation', link: '/documentation/installation'},
+          {text: 'Surmai Go', link: '/documentation/surmai-go'},
           {text: 'Screenshots', link: '/documentation/screenshots'},
         ]
       },
