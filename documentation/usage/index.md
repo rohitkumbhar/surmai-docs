@@ -13,6 +13,7 @@ Welcome to the Surmai usage documentation. This section provides detailed guides
 - [Collaborating on a Trip](/documentation/usage/collaborating-on-a-trip)
 - [Offline Access](/documentation/usage/offline-access)
 - [Calendar Integration](/documentation/usage/calendar-integration)
+- [Expense Tracking](/documentation/usage/expense-tracking)
 - [Import/Export Trip Data](/documentation/usage/import-export-trip)
 - [User Profile Management](/documentation/usage/user-profile)
 - [Mobile Applications](/documentation/usage/mobile-apps)

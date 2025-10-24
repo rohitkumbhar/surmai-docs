@@ -8,7 +8,7 @@ next:
 
 # Installing Surmai
 
-Surmai is only available as a self hosted application at this time. It can be deployed as a Docker container on your
+Surmai is available as a self hosted application. It can be deployed as a Docker container on your
 server and accessed via a browser.
 
 > [!TIP]

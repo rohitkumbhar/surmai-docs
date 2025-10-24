@@ -57,5 +57,4 @@ deployment with minimal friction. Refer to the [installation guide](/documentati
 
 ## Support and Feedback
 
-Your feedback helps improve Surmai. For questions, support requests, or suggestions, please email contact@surmai.app or
-join the [Discord server](https://discord.gg/X2xe92nJ).
+Your feedback helps improve Surmai. For questions, support requests, or suggestions, please email contact@surmai.app or use [Github Discussions](https://github.com/rohitkumbhar/surmai/discussions).
