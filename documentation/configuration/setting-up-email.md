@@ -24,3 +24,4 @@ The SMTP server integration supports the following notification types:
 - **Port**: Communication port for the SMTP service (typically 25, 465, or 587)
 - **Authentication**: Username and password credentials for the mail server
 - **Encryption**: TLS/SSL configuration options for secure transmission
+- **Local Server Name**: This is the fully qualified domain name for the surmai server, specifically, EHLO/HELO domain for SMTP. Some SMTP servers, such as the Gmail SMTP-relay, requires a proper domain name in the inital EHLO/HELO exchange and will reject attempts to use localhost.

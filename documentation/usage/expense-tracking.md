@@ -10,9 +10,9 @@ Whether you’re planning a getaway or a business trip, the _Expenses_ tab gives
 ## Getting Started
 
 1. Log into Surmai and open your trip.
-2. In the Basic Information tab, click on **Actions** menu and select the *Edit* action.
+2. In the Basic Information tab, click on **Actions** menu and select the _Edit_ action.
 3. Add or update the budget amount and currency for your trip.
-4. Any existing *Cost* entries are automatically added as expenses.
+4. Any existing _Cost_ entries are automatically added as expenses.
 
 ## Record Expenses by Category
 
@@ -24,7 +24,7 @@ Once your budget is in place, you can start recording actual expenses.
   - _Date_ of the expense
   - _Category_ (choose from your previously defined categories or use Other)
   - _Amount_ spent
-  - _Note_  (optional but useful for context)
+  - _Note_ (optional but useful for context)
 - Save the expense. It will now appear in the list and affect your overall budget tracking.
 
 **Tip:** Encourage collaborators to enter expenses as soon as they happen — timely entry makes the overview far more accurate.
@@ -55,6 +55,16 @@ If you invited collaborators to your trip (via the “Collaborating on a Trip”
 - Everyone can add/edit expenses (unless the admin has set tighter restrictions).
 - Expense records are transparent to the whole group — no more hidden receipts or fragmented spreadsheets.
 - Uploading attachments allows the group to audit or review expenses together.
+
+## Multi Currency Support
+
+Surmai supports multiple currencies by default, making it easy to manage expenses from anywhere in the world. The app automatically uses conversion rates provided by ExchangeRates-API, ensuring up-to-date calculations. All expenses are seamlessly converted to your trip’s budget currency, so you can view and track your total spending in one consistent currency.
+
+### Notes about currency conversion
+
+- Currency conversion rates are for reference only and may not always reflect the latest market values.
+- Surmai’s server updates rates once every 24 hours, so brief delays or stale data are possible.
+- To check when the latest update occurred, review the PocketBase logs for the SyncCurrencyDataJob at: `https://<your-surmai-server>/_/#/logs?filter=SyncCurrencyDataJob`
 
 ## Summary
 
