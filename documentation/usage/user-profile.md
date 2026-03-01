@@ -7,7 +7,9 @@ description: Manage your personal information and preferences in Surmai
 
 ## What is the User Profile?
 
-The User Profile in Surmai allows you to personalize your account settings and manage your security preferences. This centralized location contains all your personal settings that affect how Surmai works for you across all trips and features.
+The User Profile in Surmai allows you to personalize your account settings and manage your security preferences. This
+centralized location contains all your personal settings that affect how Surmai works for you across all trips and
+features.
 
 ## Basic Information Settings
 
@@ -19,6 +21,20 @@ The Basic Information tab contains settings that personalize your Surmai experie
 - **Default Currency Code**: Select your preferred currency for expense tracking and budgeting
 - **Maps Link Provider**: Choose your preferred mapping service for location links
 - **Profile Picture**: Upload or update your profile image that appears in collaborative features
+
+## Travel Profile
+
+The Travel Profile tab allows you to manage your personal traveler information that is used across trips.
+
+- **Personal Information**: Update your passport details, loyalty program numbers, and other travel-specific data.
+- **Documents**: Manage and upload copies of your travel documents for easy access.
+
+To update your travel profile:
+
+1. Navigate to the **User Profile** page
+2. Click on the **Travel Profile** tab
+3. Update your information as needed
+4. Changes are saved automatically as you make them
 
 ## Accessing and Modifying Basic Information
 
@@ -53,4 +69,5 @@ To change your password:
 - **Collaborative visibility**: Your name and profile picture are visible to trip collaborators
 - **Regional settings**: Time zone and currency settings affect how dates and amounts are displayed
 
-For the best experience with Surmai, keep your profile information current and choose settings that match your preferences and usage patterns.
+For the best experience with Surmai, keep your profile information current and choose settings that match your
+preferences and usage patterns.

@@ -30,3 +30,4 @@ Welcome to the Surmai documentation. Use the links below to navigate through the
 - [Import/Export](/documentation/usage/import-export-trip)
 - [User Profile](/documentation/usage/user-profile)
 - [Mobile Apps](/documentation/usage/mobile-apps)
+- [Traveler Profiles](/documentation/usage/traveller-profiles)

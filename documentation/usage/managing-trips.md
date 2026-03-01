@@ -71,15 +71,18 @@ The Activities section helps you plan your experiences by allowing you to:
 
 ### Notes
 
-The Notes tab provides a space for free-form information that doesn't fit into the structured sections. Use this area to record any additional details, reminders, or ideas related to your trip.
+The Notes tab provides a space for free-form information that doesn't fit into the structured sections. Use this area to
+record any additional details, reminders, or ideas related to your trip.
 
 ### Itinerary
 
-The Itinerary tab brings all your trip information together in a chronological view. This provides a day-by-day overview of your entire journey, making it easy to visualize your complete travel plan.
+The Itinerary tab brings all your trip information together in a chronological view. This provides a day-by-day overview
+of your entire journey, making it easy to visualize your complete travel plan.
 
 ### Attachments
 
-The Attachments tab collects all documents added throughout your trip planning in one convenient location. This provides easy access to important files without having to navigate to the specific section where they were originally added.
+The Attachments tab collects all documents added throughout your trip planning in one convenient location. This provides
+easy access to important files without having to navigate to the specific section where they were originally added.
 
 ## Tips for Effective Trip Management
 

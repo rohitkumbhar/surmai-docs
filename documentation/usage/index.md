@@ -17,3 +17,4 @@ Welcome to the Surmai usage documentation. This section provides detailed guides
 - [Import/Export Trip Data](/documentation/usage/import-export-trip)
 - [User Profile Management](/documentation/usage/user-profile)
 - [Mobile Applications](/documentation/usage/mobile-apps)
+- [Traveler Profiles](/documentation/usage/traveller-profiles)
