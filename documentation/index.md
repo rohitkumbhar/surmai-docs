@@ -20,6 +20,7 @@ Welcome to the Surmai documentation. Use the links below to navigate through the
 - [Datasets](/documentation/configuration/loading-datasets)
 - [Integrations](/documentation/configuration/third-party-integrations)
 - [Pocketbase Administration](/documentation/configuration/using-pocketbase-admin-portal)
+- [Import Bookings From Emails](/documentation/configuration/importing-booking-from-email)
 
 ## User Documentation
 - [Managing Trips](/documentation/usage/managing-trips)
