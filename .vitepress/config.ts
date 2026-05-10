@@ -82,6 +82,10 @@ export default defineConfig({
             link: "/documentation/configuration/third-party-integrations",
           },
           {
+            text: "Import Bookings",
+            link: "/documentation/configuration/importing-booking-from-email",
+          },
+          {
             text: "Pocketbase Administration",
             link: "/documentation/configuration/using-pocketbase-admin-portal",
           },

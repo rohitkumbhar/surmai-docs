@@ -26,6 +26,14 @@ To begin planning your journey:
 
 ## Managing Trip Components
 
+> [!TIP]
+> You can also forward your confirmation email to an email address configured by your 
+> administrator. For example, on  [Surmai Go](/documentation/surmai-go), you can forward the 
+> confirmation email to `assistant@surmai.app` to add the booking to your trip.
+> 
+> If you are an administrator, you can also configure [importing bookings from email](/documentation/configuration/importing-booking-from-email) to 
+> automate the process of adding bookings to your trip.
+
 ### Basic Information
 
 The Basic Information section serves as the foundation of your trip and allows you to:
